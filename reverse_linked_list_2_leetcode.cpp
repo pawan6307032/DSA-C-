@@ -114,7 +114,9 @@ public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {
         
         ListNode* ans_node = head;
-        problem(ans_node,left,right);
+        int m = left - 1;
+        int n = right - 1;
+        problem(ans_node,m,n);
         return ans_node;
     }
 
