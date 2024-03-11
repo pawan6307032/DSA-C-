@@ -61,7 +61,8 @@ int main()
     s.push(30);
     s.push(40);
     s.push(50);
-
+    s.push(60);
+    cout << endl;
     cout << "Size : " << s.getSize() << endl;
     cout << "Top : " << s.getTop() << endl;
     cout << "isEmpty : " << s.isEmpty() << endl;
@@ -72,5 +73,7 @@ int main()
         cout << s.getTop() << " ";
         s.pop();
     }
+    cout << endl;
+    s.pop();
     return 0;
 }
